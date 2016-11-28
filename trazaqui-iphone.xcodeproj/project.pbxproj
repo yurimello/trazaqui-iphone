@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		864AD1681DEBD31D0080ADCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864AD1671DEBD31D0080ADCA /* AppDelegate.swift */; };
+		864AD16A1DEBD31D0080ADCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864AD1691DEBD31D0080ADCA /* ViewController.swift */; };
+		864AD16D1DEBD31D0080ADCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 864AD16B1DEBD31D0080ADCA /* Main.storyboard */; };
+		864AD16F1DEBD31D0080ADCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 864AD16E1DEBD31D0080ADCA /* Assets.xcassets */; };
+		864AD1721DEBD31D0080ADCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 864AD1701DEBD31D0080ADCA /* LaunchScreen.storyboard */; };
+		864AD17D1DEBD31D0080ADCA /* trazaqui_iphoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864AD17C1DEBD31D0080ADCA /* trazaqui_iphoneTests.swift */; };
+		864AD1881DEBD31D0080ADCA /* trazaqui_iphoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864AD1871DEBD31D0080ADCA /* trazaqui_iphoneUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		864AD1791DEBD31D0080ADCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 864AD15C1DEBD31C0080ADCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 864AD1631DEBD31C0080ADCA;
+			remoteInfo = "trazaqui-iphone";
+		};
+		864AD1841DEBD31D0080ADCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 864AD15C1DEBD31C0080ADCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 864AD1631DEBD31C0080ADCA;
+			remoteInfo = "trazaqui-iphone";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		864AD1641DEBD31D0080ADCA /* trazaqui-iphone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "trazaqui-iphone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		864AD1671DEBD31D0080ADCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		864AD1691DEBD31D0080ADCA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		864AD16C1DEBD31D0080ADCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		864AD16E1DEBD31D0080ADCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		864AD1711DEBD31D0080ADCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		864AD1731DEBD31D0080ADCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		864AD1781DEBD31D0080ADCA /* trazaqui-iphoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "trazaqui-iphoneTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		864AD17C1DEBD31D0080ADCA /* trazaqui_iphoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trazaqui_iphoneTests.swift; sourceTree = "<group>"; };
+		864AD17E1DEBD31D0080ADCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		864AD1831DEBD31D0080ADCA /* trazaqui-iphoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "trazaqui-iphoneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		864AD1871DEBD31D0080ADCA /* trazaqui_iphoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trazaqui_iphoneUITests.swift; sourceTree = "<group>"; };
+		864AD1891DEBD31D0080ADCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		864AD1611DEBD31C0080ADCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		864AD1751DEBD31D0080ADCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		864AD1801DEBD31D0080ADCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		864AD15B1DEBD31C0080ADCA = {
+			isa = PBXGroup;
+			children = (
+				864AD1661DEBD31D0080ADCA /* trazaqui-iphone */,
+				864AD17B1DEBD31D0080ADCA /* trazaqui-iphoneTests */,
+				864AD1861DEBD31D0080ADCA /* trazaqui-iphoneUITests */,
+				864AD1651DEBD31D0080ADCA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		864AD1651DEBD31D0080ADCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				864AD1641DEBD31D0080ADCA /* trazaqui-iphone.app */,
+				864AD1781DEBD31D0080ADCA /* trazaqui-iphoneTests.xctest */,
+				864AD1831DEBD31D0080ADCA /* trazaqui-iphoneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		864AD1661DEBD31D0080ADCA /* trazaqui-iphone */ = {
+			isa = PBXGroup;
+			children = (
+				864AD1671DEBD31D0080ADCA /* AppDelegate.swift */,
+				864AD1691DEBD31D0080ADCA /* ViewController.swift */,
+				864AD16B1DEBD31D0080ADCA /* Main.storyboard */,
+				864AD16E1DEBD31D0080ADCA /* Assets.xcassets */,
+				864AD1701DEBD31D0080ADCA /* LaunchScreen.storyboard */,
+				864AD1731DEBD31D0080ADCA /* Info.plist */,
+			);
+			path = "trazaqui-iphone";
+			sourceTree = "<group>";
+		};
+		864AD17B1DEBD31D0080ADCA /* trazaqui-iphoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				864AD17C1DEBD31D0080ADCA /* trazaqui_iphoneTests.swift */,
+				864AD17E1DEBD31D0080ADCA /* Info.plist */,
+			);
+			path = "trazaqui-iphoneTests";
+			sourceTree = "<group>";
+		};
+		864AD1861DEBD31D0080ADCA /* trazaqui-iphoneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				864AD1871DEBD31D0080ADCA /* trazaqui_iphoneUITests.swift */,
+				864AD1891DEBD31D0080ADCA /* Info.plist */,
+			);
+			path = "trazaqui-iphoneUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		864AD1631DEBD31C0080ADCA /* trazaqui-iphone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 864AD18C1DEBD31D0080ADCA /* Build configuration list for PBXNativeTarget "trazaqui-iphone" */;
+			buildPhases = (
+				864AD1601DEBD31C0080ADCA /* Sources */,
+				864AD1611DEBD31C0080ADCA /* Frameworks */,
+				864AD1621DEBD31C0080ADCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "trazaqui-iphone";
+			productName = "trazaqui-iphone";
+			productReference = 864AD1641DEBD31D0080ADCA /* trazaqui-iphone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		864AD1771DEBD31D0080ADCA /* trazaqui-iphoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 864AD18F1DEBD31D0080ADCA /* Build configuration list for PBXNativeTarget "trazaqui-iphoneTests" */;
+			buildPhases = (
+				864AD1741DEBD31D0080ADCA /* Sources */,
+				864AD1751DEBD31D0080ADCA /* Frameworks */,
+				864AD1761DEBD31D0080ADCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				864AD17A1DEBD31D0080ADCA /* PBXTargetDependency */,
+			);
+			name = "trazaqui-iphoneTests";
+			productName = "trazaqui-iphoneTests";
+			productReference = 864AD1781DEBD31D0080ADCA /* trazaqui-iphoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		864AD1821DEBD31D0080ADCA /* trazaqui-iphoneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 864AD1921DEBD31D0080ADCA /* Build configuration list for PBXNativeTarget "trazaqui-iphoneUITests" */;
+			buildPhases = (
+				864AD17F1DEBD31D0080ADCA /* Sources */,
+				864AD1801DEBD31D0080ADCA /* Frameworks */,
+				864AD1811DEBD31D0080ADCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				864AD1851DEBD31D0080ADCA /* PBXTargetDependency */,
+			);
+			name = "trazaqui-iphoneUITests";
+			productName = "trazaqui-iphoneUITests";
+			productReference = 864AD1831DEBD31D0080ADCA /* trazaqui-iphoneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		864AD15C1DEBD31C0080ADCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Yuri Mello";
+				TargetAttributes = {
+					864AD1631DEBD31C0080ADCA = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					864AD1771DEBD31D0080ADCA = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 864AD1631DEBD31C0080ADCA;
+					};
+					864AD1821DEBD31D0080ADCA = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 864AD1631DEBD31C0080ADCA;
+					};
+				};
+			};
+			buildConfigurationList = 864AD15F1DEBD31C0080ADCA /* Build configuration list for PBXProject "trazaqui-iphone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 864AD15B1DEBD31C0080ADCA;
+			productRefGroup = 864AD1651DEBD31D0080ADCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				864AD1631DEBD31C0080ADCA /* trazaqui-iphone */,
+				864AD1771DEBD31D0080ADCA /* trazaqui-iphoneTests */,
+				864AD1821DEBD31D0080ADCA /* trazaqui-iphoneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		864AD1621DEBD31C0080ADCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				864AD1721DEBD31D0080ADCA /* LaunchScreen.storyboard in Resources */,
+				864AD16F1DEBD31D0080ADCA /* Assets.xcassets in Resources */,
+				864AD16D1DEBD31D0080ADCA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		864AD1761DEBD31D0080ADCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		864AD1811DEBD31D0080ADCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		864AD1601DEBD31C0080ADCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				864AD16A1DEBD31D0080ADCA /* ViewController.swift in Sources */,
+				864AD1681DEBD31D0080ADCA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		864AD1741DEBD31D0080ADCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				864AD17D1DEBD31D0080ADCA /* trazaqui_iphoneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		864AD17F1DEBD31D0080ADCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				864AD1881DEBD31D0080ADCA /* trazaqui_iphoneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		864AD17A1DEBD31D0080ADCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 864AD1631DEBD31C0080ADCA /* trazaqui-iphone */;
+			targetProxy = 864AD1791DEBD31D0080ADCA /* PBXContainerItemProxy */;
+		};
+		864AD1851DEBD31D0080ADCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 864AD1631DEBD31C0080ADCA /* trazaqui-iphone */;
+			targetProxy = 864AD1841DEBD31D0080ADCA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		864AD16B1DEBD31D0080ADCA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				864AD16C1DEBD31D0080ADCA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		864AD1701DEBD31D0080ADCA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				864AD1711DEBD31D0080ADCA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		864AD18A1DEBD31D0080ADCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		864AD18B1DEBD31D0080ADCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		864AD18D1DEBD31D0080ADCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "trazaqui-iphone/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "trazaqui.trazaqui-iphone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		864AD18E1DEBD31D0080ADCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "trazaqui-iphone/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "trazaqui.trazaqui-iphone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		864AD1901DEBD31D0080ADCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "trazaqui-iphoneTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "trazaqui.trazaqui-iphoneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/trazaqui-iphone.app/trazaqui-iphone";
+			};
+			name = Debug;
+		};
+		864AD1911DEBD31D0080ADCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "trazaqui-iphoneTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "trazaqui.trazaqui-iphoneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/trazaqui-iphone.app/trazaqui-iphone";
+			};
+			name = Release;
+		};
+		864AD1931DEBD31D0080ADCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "trazaqui-iphoneUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "trazaqui.trazaqui-iphoneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "trazaqui-iphone";
+			};
+			name = Debug;
+		};
+		864AD1941DEBD31D0080ADCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "trazaqui-iphoneUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "trazaqui.trazaqui-iphoneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "trazaqui-iphone";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		864AD15F1DEBD31C0080ADCA /* Build configuration list for PBXProject "trazaqui-iphone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				864AD18A1DEBD31D0080ADCA /* Debug */,
+				864AD18B1DEBD31D0080ADCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		864AD18C1DEBD31D0080ADCA /* Build configuration list for PBXNativeTarget "trazaqui-iphone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				864AD18D1DEBD31D0080ADCA /* Debug */,
+				864AD18E1DEBD31D0080ADCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		864AD18F1DEBD31D0080ADCA /* Build configuration list for PBXNativeTarget "trazaqui-iphoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				864AD1901DEBD31D0080ADCA /* Debug */,
+				864AD1911DEBD31D0080ADCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		864AD1921DEBD31D0080ADCA /* Build configuration list for PBXNativeTarget "trazaqui-iphoneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				864AD1931DEBD31D0080ADCA /* Debug */,
+				864AD1941DEBD31D0080ADCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 864AD15C1DEBD31C0080ADCA /* Project object */;
+}
