@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		014F0CC5398FBC781039D723 /* Pods_trazaqui_iphoneUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF91C581D4DEC44224C07B48 /* Pods_trazaqui_iphoneUITests.framework */; };
 		864AD1681DEBD31D0080ADCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864AD1671DEBD31D0080ADCA /* AppDelegate.swift */; };
 		864AD16A1DEBD31D0080ADCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864AD1691DEBD31D0080ADCA /* ViewController.swift */; };
 		864AD16D1DEBD31D0080ADCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 864AD16B1DEBD31D0080ADCA /* Main.storyboard */; };
@@ -14,6 +15,14 @@
 		864AD1721DEBD31D0080ADCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 864AD1701DEBD31D0080ADCA /* LaunchScreen.storyboard */; };
 		864AD17D1DEBD31D0080ADCA /* trazaqui_iphoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864AD17C1DEBD31D0080ADCA /* trazaqui_iphoneTests.swift */; };
 		864AD1881DEBD31D0080ADCA /* trazaqui_iphoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864AD1871DEBD31D0080ADCA /* trazaqui_iphoneUITests.swift */; };
+		864AD1961DEBD64C0080ADCA /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 864AD1951DEBD64C0080ADCA /* Podfile */; };
+		864AD1981DEC4A6A0080ADCA /* RestApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864AD1971DEC4A6A0080ADCA /* RestApiManager.swift */; };
+		86896C641DEE7CCA00683AC1 /* ItinerariesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86896C631DEE7CCA00683AC1 /* ItinerariesController.swift */; };
+		86896C661DEE911900683AC1 /* PlacesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86896C651DEE911900683AC1 /* PlacesController.swift */; };
+		86896C681DEE963600683AC1 /* ItemsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86896C671DEE963600683AC1 /* ItemsController.swift */; };
+		86E738FB1DEC84EC00C0E954 /* UserObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E738FA1DEC84EC00C0E954 /* UserObject.swift */; };
+		AF8854AED1A4EED1570260CF /* Pods_trazaqui_iphone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A84D5A9FDBCB9DD4ACF4F9AC /* Pods_trazaqui_iphone.framework */; };
+		D4FB752E549E1546C6AA4828 /* Pods_trazaqui_iphoneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3C58AFD6FE51E87A8D95AD7 /* Pods_trazaqui_iphoneTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B8389165310F62FDB310128 /* Pods-trazaqui-iphone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-trazaqui-iphone.debug.xcconfig"; path = "Pods/Target Support Files/Pods-trazaqui-iphone/Pods-trazaqui-iphone.debug.xcconfig"; sourceTree = "<group>"; };
+		7985F40CEE9F0EA5EAD104F6 /* Pods-trazaqui-iphoneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-trazaqui-iphoneTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-trazaqui-iphoneTests/Pods-trazaqui-iphoneTests.debug.xcconfig"; sourceTree = "<group>"; };
 		864AD1641DEBD31D0080ADCA /* trazaqui-iphone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "trazaqui-iphone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		864AD1671DEBD31D0080ADCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		864AD1691DEBD31D0080ADCA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,19 @@
 		864AD1831DEBD31D0080ADCA /* trazaqui-iphoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "trazaqui-iphoneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		864AD1871DEBD31D0080ADCA /* trazaqui_iphoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trazaqui_iphoneUITests.swift; sourceTree = "<group>"; };
 		864AD1891DEBD31D0080ADCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		864AD1951DEBD64C0080ADCA /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		864AD1971DEC4A6A0080ADCA /* RestApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestApiManager.swift; sourceTree = "<group>"; };
+		86896C631DEE7CCA00683AC1 /* ItinerariesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItinerariesController.swift; sourceTree = "<group>"; };
+		86896C651DEE911900683AC1 /* PlacesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacesController.swift; sourceTree = "<group>"; };
+		86896C671DEE963600683AC1 /* ItemsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsController.swift; sourceTree = "<group>"; };
+		86E738FA1DEC84EC00C0E954 /* UserObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserObject.swift; sourceTree = "<group>"; };
+		A3C58AFD6FE51E87A8D95AD7 /* Pods_trazaqui_iphoneTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_trazaqui_iphoneTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A84D5A9FDBCB9DD4ACF4F9AC /* Pods_trazaqui_iphone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_trazaqui_iphone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE3071480B2B15C761F38086 /* Pods-trazaqui-iphone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-trazaqui-iphone.release.xcconfig"; path = "Pods/Target Support Files/Pods-trazaqui-iphone/Pods-trazaqui-iphone.release.xcconfig"; sourceTree = "<group>"; };
+		BBD2F83BD86201641FA1D93B /* Pods-trazaqui-iphoneUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-trazaqui-iphoneUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-trazaqui-iphoneUITests/Pods-trazaqui-iphoneUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BF91C581D4DEC44224C07B48 /* Pods_trazaqui_iphoneUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_trazaqui_iphoneUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5D3793A4F63FE5E2CA0E55C /* Pods-trazaqui-iphoneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-trazaqui-iphoneUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-trazaqui-iphoneUITests/Pods-trazaqui-iphoneUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D1CD482A1CBEF07900A47BEC /* Pods-trazaqui-iphoneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-trazaqui-iphoneTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-trazaqui-iphoneTests/Pods-trazaqui-iphoneTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF8854AED1A4EED1570260CF /* Pods_trazaqui_iphone.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4FB752E549E1546C6AA4828 /* Pods_trazaqui_iphoneTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +94,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				014F0CC5398FBC781039D723 /* Pods_trazaqui_iphoneUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A87EF2E549472DAF4C75509 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A84D5A9FDBCB9DD4ACF4F9AC /* Pods_trazaqui_iphone.framework */,
+				A3C58AFD6FE51E87A8D95AD7 /* Pods_trazaqui_iphoneTests.framework */,
+				BF91C581D4DEC44224C07B48 /* Pods_trazaqui_iphoneUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		864AD15B1DEBD31C0080ADCA = {
 			isa = PBXGroup;
 			children = (
+				864AD1951DEBD64C0080ADCA /* Podfile */,
 				864AD1661DEBD31D0080ADCA /* trazaqui-iphone */,
 				864AD17B1DEBD31D0080ADCA /* trazaqui-iphoneTests */,
 				864AD1861DEBD31D0080ADCA /* trazaqui-iphoneUITests */,
 				864AD1651DEBD31D0080ADCA /* Products */,
+				EC817283240380CEDF556434 /* Pods */,
+				5A87EF2E549472DAF4C75509 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +143,11 @@
 				864AD16E1DEBD31D0080ADCA /* Assets.xcassets */,
 				864AD1701DEBD31D0080ADCA /* LaunchScreen.storyboard */,
 				864AD1731DEBD31D0080ADCA /* Info.plist */,
+				864AD1971DEC4A6A0080ADCA /* RestApiManager.swift */,
+				86E738FA1DEC84EC00C0E954 /* UserObject.swift */,
+				86896C631DEE7CCA00683AC1 /* ItinerariesController.swift */,
+				86896C651DEE911900683AC1 /* PlacesController.swift */,
+				86896C671DEE963600683AC1 /* ItemsController.swift */,
 			);
 			path = "trazaqui-iphone";
 			sourceTree = "<group>";
@@ -125,6 +170,19 @@
 			path = "trazaqui-iphoneUITests";
 			sourceTree = "<group>";
 		};
+		EC817283240380CEDF556434 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B8389165310F62FDB310128 /* Pods-trazaqui-iphone.debug.xcconfig */,
+				AE3071480B2B15C761F38086 /* Pods-trazaqui-iphone.release.xcconfig */,
+				7985F40CEE9F0EA5EAD104F6 /* Pods-trazaqui-iphoneTests.debug.xcconfig */,
+				D1CD482A1CBEF07900A47BEC /* Pods-trazaqui-iphoneTests.release.xcconfig */,
+				BBD2F83BD86201641FA1D93B /* Pods-trazaqui-iphoneUITests.debug.xcconfig */,
+				C5D3793A4F63FE5E2CA0E55C /* Pods-trazaqui-iphoneUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +190,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 864AD18C1DEBD31D0080ADCA /* Build configuration list for PBXNativeTarget "trazaqui-iphone" */;
 			buildPhases = (
+				FB6DFE79B00E510D6DB9D369 /* [CP] Check Pods Manifest.lock */,
 				864AD1601DEBD31C0080ADCA /* Sources */,
 				864AD1611DEBD31C0080ADCA /* Frameworks */,
 				864AD1621DEBD31C0080ADCA /* Resources */,
+				954EDF9BA20AD780865D4506 /* [CP] Embed Pods Frameworks */,
+				3FD5C2E976B10F53FE17A12A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +210,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 864AD18F1DEBD31D0080ADCA /* Build configuration list for PBXNativeTarget "trazaqui-iphoneTests" */;
 			buildPhases = (
+				284630D02E4C5FDD8C8479A9 /* [CP] Check Pods Manifest.lock */,
 				864AD1741DEBD31D0080ADCA /* Sources */,
 				864AD1751DEBD31D0080ADCA /* Frameworks */,
 				864AD1761DEBD31D0080ADCA /* Resources */,
+				C395B421A8B4A991859EEE15 /* [CP] Embed Pods Frameworks */,
+				CBB913A509822A624F4F9112 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +231,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 864AD1921DEBD31D0080ADCA /* Build configuration list for PBXNativeTarget "trazaqui-iphoneUITests" */;
 			buildPhases = (
+				116FC3B4E621633A43CBF82D /* [CP] Check Pods Manifest.lock */,
 				864AD17F1DEBD31D0080ADCA /* Sources */,
 				864AD1801DEBD31D0080ADCA /* Frameworks */,
 				864AD1811DEBD31D0080ADCA /* Resources */,
+				04D042E946F8BAF34B0D5BE5 /* [CP] Embed Pods Frameworks */,
+				A28E80E641FD69A6F9826187 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,6 +301,7 @@
 			files = (
 				864AD1721DEBD31D0080ADCA /* LaunchScreen.storyboard in Resources */,
 				864AD16F1DEBD31D0080ADCA /* Assets.xcassets in Resources */,
+				864AD1961DEBD64C0080ADCA /* Podfile in Resources */,
 				864AD16D1DEBD31D0080ADCA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,13 +322,156 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		04D042E946F8BAF34B0D5BE5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-trazaqui-iphoneUITests/Pods-trazaqui-iphoneUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		116FC3B4E621633A43CBF82D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		284630D02E4C5FDD8C8479A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3FD5C2E976B10F53FE17A12A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-trazaqui-iphone/Pods-trazaqui-iphone-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		954EDF9BA20AD780865D4506 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-trazaqui-iphone/Pods-trazaqui-iphone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A28E80E641FD69A6F9826187 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-trazaqui-iphoneUITests/Pods-trazaqui-iphoneUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C395B421A8B4A991859EEE15 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-trazaqui-iphoneTests/Pods-trazaqui-iphoneTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBB913A509822A624F4F9112 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-trazaqui-iphoneTests/Pods-trazaqui-iphoneTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB6DFE79B00E510D6DB9D369 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		864AD1601DEBD31C0080ADCA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86896C641DEE7CCA00683AC1 /* ItinerariesController.swift in Sources */,
 				864AD16A1DEBD31D0080ADCA /* ViewController.swift in Sources */,
+				86E738FB1DEC84EC00C0E954 /* UserObject.swift in Sources */,
 				864AD1681DEBD31D0080ADCA /* AppDelegate.swift in Sources */,
+				86896C681DEE963600683AC1 /* ItemsController.swift in Sources */,
+				864AD1981DEC4A6A0080ADCA /* RestApiManager.swift in Sources */,
+				86896C661DEE911900683AC1 /* PlacesController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +621,7 @@
 		};
 		864AD18D1DEBD31D0080ADCA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B8389165310F62FDB310128 /* Pods-trazaqui-iphone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "trazaqui-iphone/Info.plist";
@@ -422,6 +634,7 @@
 		};
 		864AD18E1DEBD31D0080ADCA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE3071480B2B15C761F38086 /* Pods-trazaqui-iphone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "trazaqui-iphone/Info.plist";
@@ -434,6 +647,7 @@
 		};
 		864AD1901DEBD31D0080ADCA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7985F40CEE9F0EA5EAD104F6 /* Pods-trazaqui-iphoneTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -448,6 +662,7 @@
 		};
 		864AD1911DEBD31D0080ADCA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1CD482A1CBEF07900A47BEC /* Pods-trazaqui-iphoneTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -462,6 +677,7 @@
 		};
 		864AD1931DEBD31D0080ADCA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBD2F83BD86201641FA1D93B /* Pods-trazaqui-iphoneUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "trazaqui-iphoneUITests/Info.plist";
@@ -475,6 +691,7 @@
 		};
 		864AD1941DEBD31D0080ADCA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5D3793A4F63FE5E2CA0E55C /* Pods-trazaqui-iphoneUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "trazaqui-iphoneUITests/Info.plist";
@@ -505,6 +722,7 @@
 				864AD18E1DEBD31D0080ADCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		864AD18F1DEBD31D0080ADCA /* Build configuration list for PBXNativeTarget "trazaqui-iphoneTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +731,7 @@
 				864AD1911DEBD31D0080ADCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		864AD1921DEBD31D0080ADCA /* Build configuration list for PBXNativeTarget "trazaqui-iphoneUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +740,7 @@
 				864AD1941DEBD31D0080ADCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
