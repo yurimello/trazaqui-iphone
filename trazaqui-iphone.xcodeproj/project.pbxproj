@@ -17,10 +17,10 @@
 		864AD1881DEBD31D0080ADCA /* trazaqui_iphoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864AD1871DEBD31D0080ADCA /* trazaqui_iphoneUITests.swift */; };
 		864AD1961DEBD64C0080ADCA /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 864AD1951DEBD64C0080ADCA /* Podfile */; };
 		864AD1981DEC4A6A0080ADCA /* RestApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864AD1971DEC4A6A0080ADCA /* RestApiManager.swift */; };
+		86664DE11DEF82220016871A /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86664DE01DEF82220016871A /* TableViewController.swift */; };
 		86896C641DEE7CCA00683AC1 /* ItinerariesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86896C631DEE7CCA00683AC1 /* ItinerariesController.swift */; };
 		86896C661DEE911900683AC1 /* PlacesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86896C651DEE911900683AC1 /* PlacesController.swift */; };
 		86896C681DEE963600683AC1 /* ItemsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86896C671DEE963600683AC1 /* ItemsController.swift */; };
-		86E738FB1DEC84EC00C0E954 /* UserObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E738FA1DEC84EC00C0E954 /* UserObject.swift */; };
 		AF8854AED1A4EED1570260CF /* Pods_trazaqui_iphone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A84D5A9FDBCB9DD4ACF4F9AC /* Pods_trazaqui_iphone.framework */; };
 		D4FB752E549E1546C6AA4828 /* Pods_trazaqui_iphoneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3C58AFD6FE51E87A8D95AD7 /* Pods_trazaqui_iphoneTests.framework */; };
 /* End PBXBuildFile section */
@@ -60,10 +60,10 @@
 		864AD1891DEBD31D0080ADCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		864AD1951DEBD64C0080ADCA /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		864AD1971DEC4A6A0080ADCA /* RestApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestApiManager.swift; sourceTree = "<group>"; };
+		86664DE01DEF82220016871A /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		86896C631DEE7CCA00683AC1 /* ItinerariesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItinerariesController.swift; sourceTree = "<group>"; };
 		86896C651DEE911900683AC1 /* PlacesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacesController.swift; sourceTree = "<group>"; };
 		86896C671DEE963600683AC1 /* ItemsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsController.swift; sourceTree = "<group>"; };
-		86E738FA1DEC84EC00C0E954 /* UserObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserObject.swift; sourceTree = "<group>"; };
 		A3C58AFD6FE51E87A8D95AD7 /* Pods_trazaqui_iphoneTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_trazaqui_iphoneTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A84D5A9FDBCB9DD4ACF4F9AC /* Pods_trazaqui_iphone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_trazaqui_iphone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE3071480B2B15C761F38086 /* Pods-trazaqui-iphone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-trazaqui-iphone.release.xcconfig"; path = "Pods/Target Support Files/Pods-trazaqui-iphone/Pods-trazaqui-iphone.release.xcconfig"; sourceTree = "<group>"; };
@@ -144,10 +144,10 @@
 				864AD1701DEBD31D0080ADCA /* LaunchScreen.storyboard */,
 				864AD1731DEBD31D0080ADCA /* Info.plist */,
 				864AD1971DEC4A6A0080ADCA /* RestApiManager.swift */,
-				86E738FA1DEC84EC00C0E954 /* UserObject.swift */,
 				86896C631DEE7CCA00683AC1 /* ItinerariesController.swift */,
 				86896C651DEE911900683AC1 /* PlacesController.swift */,
 				86896C671DEE963600683AC1 /* ItemsController.swift */,
+				86664DE01DEF82220016871A /* TableViewController.swift */,
 			);
 			path = "trazaqui-iphone";
 			sourceTree = "<group>";
@@ -467,7 +467,7 @@
 			files = (
 				86896C641DEE7CCA00683AC1 /* ItinerariesController.swift in Sources */,
 				864AD16A1DEBD31D0080ADCA /* ViewController.swift in Sources */,
-				86E738FB1DEC84EC00C0E954 /* UserObject.swift in Sources */,
+				86664DE11DEF82220016871A /* TableViewController.swift in Sources */,
 				864AD1681DEBD31D0080ADCA /* AppDelegate.swift in Sources */,
 				86896C681DEE963600683AC1 /* ItemsController.swift in Sources */,
 				864AD1981DEC4A6A0080ADCA /* RestApiManager.swift in Sources */,
